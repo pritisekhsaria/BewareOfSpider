@@ -1,0 +1,62 @@
+
+<!-- Beware of the spider - index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Beware of the Spider</title>
+	<link rel="stylesheet" type="text/css" href="css/myStyle.css">
+	<script type="text/javascript" src="js/myScript.js"></script>
+	
+</head>
+<body>
+	
+	<!--Start Pre-loading images -->
+	<div style="display: none">
+		<img src="img/pattern.jpg"> <img src="img/spider.gif"> <img src="img/one.jpg">
+		<img src="img/two.jpg"> <img src="img/three.jpg"> <img src="img/four.jpg">
+		<img src="img/five.jpg"> <img src="img/six.jpg"> <img src="img/seven.jpg">
+		<img src="img/eight.jpg"> <img src="img/nine.jpg"> <img src="img/ten.jpg">
+		<img src="img/eleven.jpg"> <img src="img/butterflyLeft.gif"><img src="img/butterflyRight.gif">
+	</div>
+	<!--End Pre-loading images -->
+
+	<img src="img/spiderweb.png" id="web" class="web">
+	
+	<h1 style="text-align: center;">Beware of the Spider!!!</h1>
+	
+	<div align="center">
+		<img src="img/pattern.jpg" class="img-cursor" id=1 onclick="boom(this.id)">
+		<img src="img/pattern.jpg" class="img-cursor" id=2 onclick="boom(this.id)">
+		<img src="img/pattern.jpg" class="img-cursor" id=3 onclick="boom(this.id)">
+		<img src="img/pattern.jpg" class="img-cursor" id=4 onclick="boom(this.id)">
+		<br/>
+		<img src="img/pattern.jpg" class="img-cursor" id=5 onclick="boom(this.id)">
+		<img src="img/pattern.jpg" class="img-cursor" id=6 onclick="boom(this.id)">
+		<img src="img/pattern.jpg" class="img-cursor" id=7 onclick="boom(this.id)">
+		<img src="img/pattern.jpg" class="img-cursor" id=8 onclick="boom(this.id)">
+		<br/>
+		<img src="img/pattern.jpg" class="img-cursor" id=9 onclick="boom(this.id)">
+		<img src="img/pattern.jpg" class="img-cursor" id=10 onclick="boom(this.id)">
+		<img src="img/pattern.jpg" class="img-cursor" id=11 onclick="boom(this.id)">
+		<img src="img/pattern.jpg" class="img-cursor" id=12 onclick="boom(this.id)">
+		<br/>
+	</div>
+
+
+	<div class="align">
+		<div style="width: 6%; ">
+			<img src="img/butterflyLeft.gif" class="butterfly1" id="butterfly1">
+		</div>
+		<div style="width: 40%;">   
+			<h1 id="msg" align="center" style="font-size:30px">
+				Click to find 10 butterflies before you find the spider
+			</h1>
+		</div>
+		<div style="width: 6%;">
+			<img src="img/butterflyRight.gif" class="butterfly2" id="butterfly2">
+		</div>
+	</div>
+	
+</body>
+</html>

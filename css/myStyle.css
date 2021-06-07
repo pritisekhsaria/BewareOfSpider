@@ -1,0 +1,83 @@
+
+/* Beware of the spider - myStyle.css */
+
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	height: 97vh;
+	background: url("../img/bg.jpg");
+	background-color: #ADD8E6;
+	background-repeat: repeat-x;
+	background-position: bottom;
+	color:darkblue;
+}
+
+img
+{
+	margin: 10px;
+	border:#c2f1db 3px outset;
+}
+
+.img-cursor
+{
+	cursor: pointer;
+}
+
+.web
+{
+	margin: 0;
+	padding: 0;
+	border: none;
+	position: fixed;
+	z-index: 10px; 
+	height: 100vh; 
+	width: 100vw;
+	display: none;
+	top: -5px;
+	opacity: 0;
+}
+
+#web:hover
+{
+	opacity: 1;
+}
+
+/* Added later, only when we want to display the web */
+.transition
+{
+	transition: opacity 5s;
+}
+
+.butterfly1
+{
+	margin: 0;
+	padding: 0;
+	border: none;
+	height: 100px;
+	display: none;
+	position: relative;
+	left: 120px;
+}
+
+.butterfly2
+{
+	margin: 0;
+	padding: 0;
+	border: none;
+	height: 100px;
+	display:none;
+	position: relative;
+	right: 140px;
+}
+
+.align
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
